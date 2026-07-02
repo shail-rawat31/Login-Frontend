@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create Axios Instance
 const api = axios.create({
-  baseURL: "http://localhost:5001/pages", // Change if your backend uses another port
+  baseURL: "https://login-backend-juk2.onrender.com/pages", 
   headers: {
     "Content-Type": "application/json",
   },
